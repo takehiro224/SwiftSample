@@ -14,6 +14,7 @@
 		F979A13B1ED540F8003E5BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F979A1391ED540F8003E5BE0 /* LaunchScreen.storyboard */; };
 		F979A1451ED541A6003E5BE0 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A1441ED541A6003E5BE0 /* Basic.swift */; };
 		F979A15C1ED545E6003E5BE0 /* StructSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A15B1ED545E6003E5BE0 /* StructSample.swift */; };
+		F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6DD861ED5881900767BA9 /* MyCalendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		F979A13C1ED540F8003E5BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F979A1441ED541A6003E5BE0 /* Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 		F979A15B1ED545E6003E5BE0 /* StructSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructSample.swift; sourceTree = "<group>"; };
+		F9D6DD861ED5881900767BA9 /* MyCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCalendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		F979A1461ED54218003E5BE0 /* MyAPI */ = {
 			isa = PBXGroup;
 			children = (
+				F9D6DD861ED5881900767BA9 /* MyCalendar.swift */,
 			);
 			name = MyAPI;
 			sourceTree = "<group>";
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F979A15C1ED545E6003E5BE0 /* StructSample.swift in Sources */,
+				F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */,
 				F979A1331ED540F7003E5BE0 /* ViewController.swift in Sources */,
 				F979A1311ED540F7003E5BE0 /* AppDelegate.swift in Sources */,
 				F979A1451ED541A6003E5BE0 /* Basic.swift in Sources */,
@@ -492,6 +496,7 @@
 				F979A1411ED540F8003E5BE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
