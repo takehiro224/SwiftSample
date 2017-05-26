@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 /**
  構造体
@@ -18,7 +19,7 @@ import Foundation
 /** 
  「構造体の基本的な定義方法」
  */
-struct BasifStruct {
+struct BasicStruct {
     var year: Int
     var month: Int
     var day: Int
@@ -365,11 +366,82 @@ struct ValueWithCounter {
     }
 }
 
+struct ValueInLine {
+    private static var _pool: [Double] = [] //タイププロパティ
+    let index: Int
+    init(_ v: Double) {
+        index = ValueInLine._pool.count //その時の配列の長さ
+        ValueInLine._pool.append(v)
+    }
+    var value: Double {
+        get {
+            return ValueInLine._pool[index]
+        }
+        nonmutating set {
+            ValueInLine._pool[index] = newValue
+        }
+    }
+    static func clear() {
+        for i in 0 ..< self._pool.count {
+            self._pool[i] = 0.0
+        }
+    }
+}
 
+/**
+ 「グローバルなスコープを持つ計算型プロパティの定義」
+ 型や関数の定義にも属さずトップレベルに置かれる変数をグローバル変数と呼ぶ
+ */
+//横長(ランドスケープ)か判定する計算型プロパティ
+var landscape: Bool {
+    let size = UIScreen.main.bounds.size
+    return size.width > size.height
+}
 
+/**
+ 「プロパティオブザーバ」
+ 格納型プロパティの値が更新される時に手続きを起動させることができる。これをプロパティオブザーバと呼ぶ
+ (1)willSet: 値が格納される直前
+ (2)didSet: 値が格納された直後
+ */
+struct Stock {
+    let buyingPrice: Int
+    var high = false
+    var count = 0
+    init(price: Int) {
+        buyingPrice = price
+        self.price = price
+    }
+    var price: Int {
+        willSet {
+            count += 1
+            high = newValue > buyingPrice
+        }
+        didSet {
+            print("\(oldValue) => \(price)")
+        }
+    }
+}
 
-
-
+/**
+ [ 添字付け(subscript) ]
+ 複数個のプロパティがある時、配列の要素に対してするように添字を使ってアクセスできるようにする機能
+ */
+struct FoodMenu {
+    let menu = ["Steak", "Pizza", "Hamburger"]
+    var submenu = ["potate", "beer", "coke"]
+    let count = 6
+    subscript(i: Int) -> String {
+        get {
+            return i < 3 ? menu[i] : submenu[i-3]
+        }
+        set {
+            if i > 2 && i < 6 {
+                submenu[i - 3] = newValue
+            }
+        }
+    }
+}
 
 
 
