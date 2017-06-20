@@ -12,10 +12,25 @@
 		F979A1361ED540F7003E5BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F979A1341ED540F7003E5BE0 /* Main.storyboard */; };
 		F979A1381ED540F8003E5BE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F979A1371ED540F8003E5BE0 /* Assets.xcassets */; };
 		F979A13B1ED540F8003E5BE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F979A1391ED540F8003E5BE0 /* LaunchScreen.storyboard */; };
-		F979A1451ED541A6003E5BE0 /* Basic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A1441ED541A6003E5BE0 /* Basic.swift */; };
 		F979A15C1ED545E6003E5BE0 /* StructSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A15B1ED545E6003E5BE0 /* StructSample.swift */; };
+		F9C408551EDCE9F50040C83D /* EventSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C408541EDCE9F40040C83D /* EventSample.swift */; };
 		F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6DD861ED5881900767BA9 /* MyCalendar.swift */; };
+		F9E895851EEE022100769612 /* SwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E895841EEE022100769612 /* SwiftSampleTests.swift */; };
+		F9E895921EEE1AD100769612 /* TestTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E895911EEE1AD100769612 /* TestTargetViewController.swift */; };
+		F9EE1BA31EF73DF7002DE95B /* DataSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BA21EF73DF7002DE95B /* DataSample.swift */; };
+		F9EE1BA51EF74192002DE95B /* ErrorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BA41EF74192002DE95B /* ErrorSample.swift */; };
+		F9EE1C0B1EF90C8A002DE95B /* ClosureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1C0A1EF90C89002DE95B /* ClosureSample.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F9E895871EEE022100769612 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F979A1251ED540F5003E5BE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F979A12C1ED540F6003E5BE0;
+			remoteInfo = SwiftSample;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		F979A12D1ED540F7003E5BE0 /* SwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,13 +40,28 @@
 		F979A1371ED540F8003E5BE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F979A13A1ED540F8003E5BE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F979A13C1ED540F8003E5BE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F979A1441ED541A6003E5BE0 /* Basic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basic.swift; sourceTree = "<group>"; };
 		F979A15B1ED545E6003E5BE0 /* StructSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructSample.swift; sourceTree = "<group>"; };
+		F9C408541EDCE9F40040C83D /* EventSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSample.swift; sourceTree = "<group>"; };
 		F9D6DD861ED5881900767BA9 /* MyCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCalendar.swift; sourceTree = "<group>"; };
+		F9E895401EEE001E00769612 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F9E895821EEE022100769612 /* SwiftSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E895841EEE022100769612 /* SwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSampleTests.swift; sourceTree = "<group>"; };
+		F9E895861EEE022100769612 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E895911EEE1AD100769612 /* TestTargetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestTargetViewController.swift; sourceTree = "<group>"; };
+		F9EE1BA21EF73DF7002DE95B /* DataSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSample.swift; sourceTree = "<group>"; };
+		F9EE1BA41EF74192002DE95B /* ErrorSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorSample.swift; sourceTree = "<group>"; };
+		F9EE1C0A1EF90C89002DE95B /* ClosureSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F979A12A1ED540F6003E5BE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8957F1EEE022100769612 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -45,7 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				F979A12F1ED540F7003E5BE0 /* SwiftSample */,
+				F9E895831EEE022100769612 /* SwiftSampleTests */,
 				F979A12E1ED540F7003E5BE0 /* Products */,
+				F9E8953F1EEE001E00769612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				F979A12D1ED540F7003E5BE0 /* SwiftSample.app */,
+				F9E895821EEE022100769612 /* SwiftSampleTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +93,7 @@
 		F979A12F1ED540F7003E5BE0 /* SwiftSample */ = {
 			isa = PBXGroup;
 			children = (
+				F9E8958E1EEE189000769612 /* XCTest */,
 				F979A1461ED54218003E5BE0 /* MyAPI */,
 				F979A1431ED5416A003E5BE0 /* app */,
 				F979A1421ED5414B003E5BE0 /* Grammar */,
@@ -76,6 +110,7 @@
 		F979A1421ED5414B003E5BE0 /* Grammar */ = {
 			isa = PBXGroup;
 			children = (
+				F9C408531EDCE9DC0040C83D /* 16_Event */,
 				F979A1551ED54466003E5BE0 /* 15_Debug */,
 				F979A1541ED54444003E5BE0 /* 14_Generics */,
 				F979A1531ED5442E003E5BE0 /* 13_Closure */,
@@ -91,7 +126,6 @@
 				F979A1491ED5435D003E5BE0 /* 03_Struct */,
 				F979A1481ED5434C003E5BE0 /* 02_Function */,
 				F979A1471ED5433F003E5BE0 /* 01_Basic */,
-				F979A1441ED541A6003E5BE0 /* Basic.swift */,
 			);
 			name = Grammar;
 			sourceTree = "<group>";
@@ -148,6 +182,7 @@
 		F979A14B1ED54385003E5BE0 /* 05_Data */ = {
 			isa = PBXGroup;
 			children = (
+				F9EE1BA21EF73DF7002DE95B /* DataSample.swift */,
 			);
 			name = 05_Data;
 			sourceTree = "<group>";
@@ -197,6 +232,7 @@
 		F979A1521ED54422003E5BE0 /* 12_Error */ = {
 			isa = PBXGroup;
 			children = (
+				F9EE1BA41EF74192002DE95B /* ErrorSample.swift */,
 			);
 			name = 12_Error;
 			sourceTree = "<group>";
@@ -204,6 +240,7 @@
 		F979A1531ED5442E003E5BE0 /* 13_Closure */ = {
 			isa = PBXGroup;
 			children = (
+				F9EE1C0A1EF90C89002DE95B /* ClosureSample.swift */,
 			);
 			name = 13_Closure;
 			sourceTree = "<group>";
@@ -257,6 +294,39 @@
 			name = Calendar;
 			sourceTree = "<group>";
 		};
+		F9C408531EDCE9DC0040C83D /* 16_Event */ = {
+			isa = PBXGroup;
+			children = (
+				F9C408541EDCE9F40040C83D /* EventSample.swift */,
+			);
+			name = 16_Event;
+			sourceTree = "<group>";
+		};
+		F9E8953F1EEE001E00769612 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9E895401EEE001E00769612 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9E895831EEE022100769612 /* SwiftSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				F9E895841EEE022100769612 /* SwiftSampleTests.swift */,
+				F9E895861EEE022100769612 /* Info.plist */,
+			);
+			path = SwiftSampleTests;
+			sourceTree = "<group>";
+		};
+		F9E8958E1EEE189000769612 /* XCTest */ = {
+			isa = PBXGroup;
+			children = (
+				F9E895911EEE1AD100769612 /* TestTargetViewController.swift */,
+			);
+			name = XCTest;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -277,13 +347,31 @@
 			productReference = F979A12D1ED540F7003E5BE0 /* SwiftSample.app */;
 			productType = "com.apple.product-type.application";
 		};
+		F9E895811EEE022100769612 /* SwiftSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9E895891EEE022100769612 /* Build configuration list for PBXNativeTarget "SwiftSampleTests" */;
+			buildPhases = (
+				F9E8957E1EEE022100769612 /* Sources */,
+				F9E8957F1EEE022100769612 /* Frameworks */,
+				F9E895801EEE022100769612 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F9E895881EEE022100769612 /* PBXTargetDependency */,
+			);
+			name = SwiftSampleTests;
+			productName = SwiftSampleTests;
+			productReference = F9E895821EEE022100769612 /* SwiftSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		F979A1251ED540F5003E5BE0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = tkwatanabe;
 				TargetAttributes = {
@@ -291,6 +379,12 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 38HYQS5SV4;
 						ProvisioningStyle = Automatic;
+					};
+					F9E895811EEE022100769612 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 38HYQS5SV4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F979A12C1ED540F6003E5BE0;
 					};
 				};
 			};
@@ -308,6 +402,7 @@
 			projectRoot = "";
 			targets = (
 				F979A12C1ED540F6003E5BE0 /* SwiftSample */,
+				F9E895811EEE022100769612 /* SwiftSampleTests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,6 +418,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F9E895801EEE022100769612 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -330,15 +432,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9EE1BA51EF74192002DE95B /* ErrorSample.swift in Sources */,
+				F9EE1C0B1EF90C8A002DE95B /* ClosureSample.swift in Sources */,
 				F979A15C1ED545E6003E5BE0 /* StructSample.swift in Sources */,
 				F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */,
+				F9C408551EDCE9F50040C83D /* EventSample.swift in Sources */,
+				F9EE1BA31EF73DF7002DE95B /* DataSample.swift in Sources */,
+				F9E895921EEE1AD100769612 /* TestTargetViewController.swift in Sources */,
 				F979A1331ED540F7003E5BE0 /* ViewController.swift in Sources */,
 				F979A1311ED540F7003E5BE0 /* AppDelegate.swift in Sources */,
-				F979A1451ED541A6003E5BE0 /* Basic.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9E8957E1EEE022100769612 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E895851EEE022100769612 /* SwiftSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F9E895881EEE022100769612 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F979A12C1ED540F6003E5BE0 /* SwiftSample */;
+			targetProxy = F9E895871EEE022100769612 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F979A1341ED540F7003E5BE0 /* Main.storyboard */ = {
@@ -384,6 +506,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -433,6 +556,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -477,6 +601,38 @@
 			};
 			name = Release;
 		};
+		F9E8958A1EEE022100769612 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 38HYQS5SV4;
+				INFOPLIST_FILE = SwiftSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.shinwart.SwiftSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSample.app/SwiftSample";
+			};
+			name = Debug;
+		};
+		F9E8958B1EEE022100769612 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				DEVELOPMENT_TEAM = 38HYQS5SV4;
+				INFOPLIST_FILE = SwiftSampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.shinwart.SwiftSampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftSample.app/SwiftSample";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -494,6 +650,15 @@
 			buildConfigurations = (
 				F979A1401ED540F8003E5BE0 /* Debug */,
 				F979A1411ED540F8003E5BE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9E895891EEE022100769612 /* Build configuration list for PBXNativeTarget "SwiftSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9E8958A1EEE022100769612 /* Debug */,
+				F9E8958B1EEE022100769612 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
