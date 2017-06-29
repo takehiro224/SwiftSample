@@ -13,7 +13,6 @@ import Foundation
  [クロージャ]
  ・実行可能なコードと、それが記述された箇所の環境を取り込んで、後から評価できるように保存したもの。
  ・Swiftの言語機能の中心的な存在
- ・
  */
 
 class ClosureSample {

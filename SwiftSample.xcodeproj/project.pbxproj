@@ -20,6 +20,7 @@
 		F9EE1BA31EF73DF7002DE95B /* DataSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BA21EF73DF7002DE95B /* DataSample.swift */; };
 		F9EE1BA51EF74192002DE95B /* ErrorSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BA41EF74192002DE95B /* ErrorSample.swift */; };
 		F9EE1C0B1EF90C8A002DE95B /* ClosureSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1C0A1EF90C89002DE95B /* ClosureSample.swift */; };
+		F9EE1C101EFA10A9002DE95B /* ClassSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1C0F1EFA10A7002DE95B /* ClassSample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F9EE1BA21EF73DF7002DE95B /* DataSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSample.swift; sourceTree = "<group>"; };
 		F9EE1BA41EF74192002DE95B /* ErrorSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorSample.swift; sourceTree = "<group>"; };
 		F9EE1C0A1EF90C89002DE95B /* ClosureSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClosureSample.swift; sourceTree = "<group>"; };
+		F9EE1C0F1EFA10A7002DE95B /* ClassSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassSample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,6 +206,7 @@
 		F979A14E1ED543E9003E5BE0 /* 08_Class */ = {
 			isa = PBXGroup;
 			children = (
+				F9EE1C0F1EFA10A7002DE95B /* ClassSample.swift */,
 			);
 			name = 08_Class;
 			sourceTree = "<group>";
@@ -434,6 +437,7 @@
 			files = (
 				F9EE1BA51EF74192002DE95B /* ErrorSample.swift in Sources */,
 				F9EE1C0B1EF90C8A002DE95B /* ClosureSample.swift in Sources */,
+				F9EE1C101EFA10A9002DE95B /* ClassSample.swift in Sources */,
 				F979A15C1ED545E6003E5BE0 /* StructSample.swift in Sources */,
 				F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */,
 				F9C408551EDCE9F50040C83D /* EventSample.swift in Sources */,
