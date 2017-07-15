@@ -443,8 +443,27 @@ struct FoodMenu {
     }
 }
 
-
-
+/**
+ [ プロトコル ]
+ 
+ */
+struct TimeProtocol: CustomStringConvertible {
+    let hour, min: Int
+    func advanced(min: Int) -> TimeProtocol {
+        var m = self.min + min
+        var h = self.hour
+        if m >= 60 {
+            h = (h + m / 60) % 24
+            m %= 60
+        }
+        return TimeProtocol(hour: h, min: m)
+    }
+    var description: String {
+        let h = hour < 10 ? "  \(hour)" : "\(hour)"
+        let m = min < 10 ? " \(min)" : "\(min)"
+        return h + ":" + m
+    }
+}
 
 
 /**
