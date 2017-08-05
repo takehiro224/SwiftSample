@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF7906ED1F19ACB40050FF44 /* PatternSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7906EC1F19ACB40050FF44 /* PatternSample.swift */; };
+		DF7906EF1F19BA260050FF44 /* FunctionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7906EE1F19BA260050FF44 /* FunctionSample.swift */; };
 		F979A1311ED540F7003E5BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A1301ED540F7003E5BE0 /* AppDelegate.swift */; };
 		F979A1331ED540F7003E5BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A1321ED540F7003E5BE0 /* ViewController.swift */; };
 		F979A1361ED540F7003E5BE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F979A1341ED540F7003E5BE0 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DF7906EC1F19ACB40050FF44 /* PatternSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PatternSample.swift; sourceTree = "<group>"; };
+		DF7906EE1F19BA260050FF44 /* FunctionSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FunctionSample.swift; sourceTree = "<group>"; };
 		F979A12D1ED540F7003E5BE0 /* SwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F979A1301ED540F7003E5BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F979A1321ED540F7003E5BE0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +166,7 @@
 		F979A1481ED5434C003E5BE0 /* 02_Function */ = {
 			isa = PBXGroup;
 			children = (
+				DF7906EE1F19BA260050FF44 /* FunctionSample.swift */,
 			);
 			name = 02_Function;
 			sourceTree = "<group>";
@@ -192,6 +197,7 @@
 		F979A14C1ED543A3003E5BE0 /* 06_Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				DF7906EC1F19ACB40050FF44 /* PatternSample.swift */,
 			);
 			name = 06_Pattern;
 			sourceTree = "<group>";
@@ -442,8 +448,10 @@
 				F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */,
 				F9C408551EDCE9F50040C83D /* EventSample.swift in Sources */,
 				F9EE1BA31EF73DF7002DE95B /* DataSample.swift in Sources */,
+				DF7906EF1F19BA260050FF44 /* FunctionSample.swift in Sources */,
 				F9E895921EEE1AD100769612 /* TestTargetViewController.swift in Sources */,
 				F979A1331ED540F7003E5BE0 /* ViewController.swift in Sources */,
+				DF7906ED1F19ACB40050FF44 /* PatternSample.swift in Sources */,
 				F979A1311ED540F7003E5BE0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

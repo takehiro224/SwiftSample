@@ -37,10 +37,10 @@ class ClosureSample {
     }
     
     func shortcut() {
-        _ = { () -> () in print("closhure") }
-        _ = { () -> Void in print("closhure") }
-        _ = { () in print("closhure") } //戻り値カット
-        _ = { print("closhure") } //戻り値、inカット
+        _ = { () -> () in print("closure") }
+        _ = { () -> Void in print("closure") }
+        _ = { () in print("closure") } //戻り値カット
+        _ = { print("closure") } //戻り値、inカット
         
         _ = { () -> Double in atan(1.0)*4.0 }() //returnカット
         _ = { atan(1.0)*4.0}()

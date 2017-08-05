@@ -349,7 +349,7 @@ var ounceB = Ounce(ounce: 10.0)
  「計算型プロパティに対する特殊な設定」
  ・計算型プロパティのset節で、同じ構造体が持つ格納型プロパティの値を変更することはよくある
  ・get節の実行中に格納型プロパティの値を変更することもある -> その場合はget節に「mutating」を付ける必要がある
- ・構造体が定数に格納されている場合、計算型プロパティは値を参照できない
+ ・構造体が定数に格納されている場合、計算型プロパティは値を代入できない
  ・set節に「nomutating」を付けると、構造体が定数に格納されていても代入操作が可能
  */
 struct ValueWithCounter {
@@ -444,6 +444,27 @@ struct FoodMenu {
 }
 
 
+/**
+ [ プロトコル ]
+ 
+ */
+struct TimeProtocol: CustomStringConvertible {
+    let hour, min: Int
+    func advanced(min: Int) -> TimeProtocol {
+        var m = self.min + min
+        var h = self.hour
+        if m >= 60 {
+            h = (h + m / 60) % 24
+            m %= 60
+        }
+        return TimeProtocol(hour: h, min: m)
+    }
+    var description: String {
+        let h = hour < 10 ? "  \(hour)" : "\(hour)"
+        let m = min < 10 ? " \(min)" : "\(min)"
+        return h + ":" + m
+    }
+}
 
 
 
