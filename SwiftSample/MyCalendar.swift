@@ -56,7 +56,7 @@ enum Month: Int {
         case .oct: self = .sep
         case .nov: self = .oct
         case .dec: self = .dec
-        case .leap: break
+        case .leap: self = .jan
         }
     }
     
@@ -74,11 +74,32 @@ enum Month: Int {
         case .oct: self = .nov
         case .nov: self = .dec
         case .dec: self = .jan
-        case .leap: break
+        case .leap: self = .mar
         }
     }
     
     static func isLeap(_ y: Int) -> Bool {
         return (y % 4 == 0) && (y % 100 != 0 || y % 400 == 0)
     }
+}
+
+public class DateUtil {
+
+    // 現在からの経過時間を文字列で作成
+    static func pass(date: Date) -> String {
+        // 指定日からの経過秒
+        switch Date().timeIntervalSince(date) {
+        case let t where t < 60: return "\(Int(t))"
+        case let t where t < 3600: return "\(Int(t/60))"
+        case let t where t < 86400: return "\(Int(t/60/60))"
+        case let t where t < 604800: return "\(Int(t/60/60/24))"
+        case let t where 604800 < t:
+            let dateFormatter = DateFormatter()
+            dateFormatter.locale = Locale(identifier: "ja_JP")
+            dateFormatter.dateFormat = "yyyy年MM月dd日"
+            return dateFormatter.string(from: date)
+        default: return "不明"
+        }
+    }
+
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F94CE3F51FA93EA90017CB34 /* RegularExpressionSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94CE3F41FA93EA90017CB34 /* RegularExpressionSample.swift */; };
+		F94CE3F81FA94B270017CB34 /* MyExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94CE3F71FA94B270017CB34 /* MyExtension.swift */; };
+		F94CE3FB1FA95C290017CB34 /* CustomRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94CE3FA1FA95C290017CB34 /* CustomRequest.swift */; };
+		F94CE3FD1FA95C3C0017CB34 /* CustomResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94CE3FC1FA95C3C0017CB34 /* CustomResponse.swift */; };
 		F9643FC31F26C13900DDC6B8 /* AsynchronousSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9643FC21F26C13900DDC6B8 /* AsynchronousSample.swift */; };
 		F979A1311ED540F7003E5BE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A1301ED540F7003E5BE0 /* AppDelegate.swift */; };
 		F979A1331ED540F7003E5BE0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A1321ED540F7003E5BE0 /* ViewController.swift */; };
@@ -16,6 +20,7 @@
 		F979A15C1ED545E6003E5BE0 /* StructSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F979A15B1ED545E6003E5BE0 /* StructSample.swift */; };
 		F9C408551EDCE9F50040C83D /* EventSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C408541EDCE9F40040C83D /* EventSample.swift */; };
 		F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9D6DD861ED5881900767BA9 /* MyCalendar.swift */; };
+		F9E81C751F89D746008B3193 /* EnumSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E81C741F89D746008B3193 /* EnumSample.swift */; };
 		F9E895851EEE022100769612 /* SwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E895841EEE022100769612 /* SwiftSampleTests.swift */; };
 		F9E895921EEE1AD100769612 /* TestTargetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E895911EEE1AD100769612 /* TestTargetViewController.swift */; };
 		F9EE1BA31EF73DF7002DE95B /* DataSample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE1BA21EF73DF7002DE95B /* DataSample.swift */; };
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F94CE3F41FA93EA90017CB34 /* RegularExpressionSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegularExpressionSample.swift; sourceTree = "<group>"; };
+		F94CE3F71FA94B270017CB34 /* MyExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyExtension.swift; sourceTree = "<group>"; };
+		F94CE3FA1FA95C290017CB34 /* CustomRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRequest.swift; sourceTree = "<group>"; };
+		F94CE3FC1FA95C3C0017CB34 /* CustomResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomResponse.swift; sourceTree = "<group>"; };
 		F9643FC21F26C13900DDC6B8 /* AsynchronousSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsynchronousSample.swift; sourceTree = "<group>"; };
 		F979A12D1ED540F7003E5BE0 /* SwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F979A1301ED540F7003E5BE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +55,7 @@
 		F979A15B1ED545E6003E5BE0 /* StructSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StructSample.swift; sourceTree = "<group>"; };
 		F9C408541EDCE9F40040C83D /* EventSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventSample.swift; sourceTree = "<group>"; };
 		F9D6DD861ED5881900767BA9 /* MyCalendar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCalendar.swift; sourceTree = "<group>"; };
+		F9E81C741F89D746008B3193 /* EnumSample.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumSample.swift; sourceTree = "<group>"; };
 		F9E895401EEE001E00769612 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		F9E895821EEE022100769612 /* SwiftSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E895841EEE022100769612 /* SwiftSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftSampleTests.swift; sourceTree = "<group>"; };
@@ -75,6 +85,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F94CE3F31FA93E6E0017CB34 /* 18_RegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				F94CE3F41FA93EA90017CB34 /* RegularExpressionSample.swift */,
+			);
+			name = 18_RegularExpression;
+			sourceTree = "<group>";
+		};
+		F94CE3F61FA94B0C0017CB34 /* MyExtension */ = {
+			isa = PBXGroup;
+			children = (
+				F94CE3F71FA94B270017CB34 /* MyExtension.swift */,
+			);
+			name = MyExtension;
+			sourceTree = "<group>";
+		};
+		F94CE3F91FA95C050017CB34 /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				F94CE3FA1FA95C290017CB34 /* CustomRequest.swift */,
+				F94CE3FC1FA95C3C0017CB34 /* CustomResponse.swift */,
+			);
+			name = Communication;
+			sourceTree = "<group>";
+		};
 		F9643FC11F26C10100DDC6B8 /* 17_Asynchronous */ = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +140,8 @@
 		F979A12F1ED540F7003E5BE0 /* SwiftSample */ = {
 			isa = PBXGroup;
 			children = (
+				F94CE3F91FA95C050017CB34 /* Communication */,
+				F94CE3F61FA94B0C0017CB34 /* MyExtension */,
 				F9E8958E1EEE189000769612 /* XCTest */,
 				F979A1461ED54218003E5BE0 /* MyAPI */,
 				F979A1431ED5416A003E5BE0 /* app */,
@@ -122,23 +159,24 @@
 		F979A1421ED5414B003E5BE0 /* Grammar */ = {
 			isa = PBXGroup;
 			children = (
-				F9643FC11F26C10100DDC6B8 /* 17_Asynchronous */,
-				F9C408531EDCE9DC0040C83D /* 16_Event */,
-				F979A1551ED54466003E5BE0 /* 15_Debug */,
-				F979A1541ED54444003E5BE0 /* 14_Generics */,
-				F979A1531ED5442E003E5BE0 /* 13_Closure */,
-				F979A1521ED54422003E5BE0 /* 12_Error */,
-				F979A1511ED54412003E5BE0 /* 11_Extension */,
-				F979A1501ED54405003E5BE0 /* 10_Protocol */,
-				F979A14F1ED543F6003E5BE0 /* 09_Memory */,
-				F979A14E1ED543E9003E5BE0 /* 08_Class */,
-				F979A14D1ED543D2003E5BE0 /* 07_Operator */,
-				F979A14C1ED543A3003E5BE0 /* 06_Pattern */,
-				F979A14B1ED54385003E5BE0 /* 05_Data */,
-				F979A14A1ED54379003E5BE0 /* 04_Optional */,
-				F979A1491ED5435D003E5BE0 /* 03_Struct */,
-				F979A1481ED5434C003E5BE0 /* 02_Function */,
+				F94CE3F31FA93E6E0017CB34 /* 18_RegularExpression */,
 				F979A1471ED5433F003E5BE0 /* 01_Basic */,
+				F979A1481ED5434C003E5BE0 /* 02_Function */,
+				F979A1491ED5435D003E5BE0 /* 03_Struct */,
+				F979A14A1ED54379003E5BE0 /* 04_Optional */,
+				F979A14B1ED54385003E5BE0 /* 05_Data */,
+				F979A14C1ED543A3003E5BE0 /* 06_Pattern */,
+				F979A14D1ED543D2003E5BE0 /* 07_Operator */,
+				F979A14E1ED543E9003E5BE0 /* 08_Class */,
+				F979A14F1ED543F6003E5BE0 /* 09_Memory */,
+				F979A1501ED54405003E5BE0 /* 10_Protocol */,
+				F979A1511ED54412003E5BE0 /* 11_Extension */,
+				F979A1521ED54422003E5BE0 /* 12_Error */,
+				F979A1531ED5442E003E5BE0 /* 13_Closure */,
+				F979A1541ED54444003E5BE0 /* 14_Generics */,
+				F979A1551ED54466003E5BE0 /* 15_Debug */,
+				F9C408531EDCE9DC0040C83D /* 16_Event */,
+				F9643FC11F26C10100DDC6B8 /* 17_Asynchronous */,
 			);
 			name = Grammar;
 			sourceTree = "<group>";
@@ -203,6 +241,7 @@
 		F979A14C1ED543A3003E5BE0 /* 06_Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				F9E81C731F89D725008B3193 /* 06_2_Enum */,
 			);
 			name = 06_Pattern;
 			sourceTree = "<group>";
@@ -314,6 +353,14 @@
 				F9C408541EDCE9F40040C83D /* EventSample.swift */,
 			);
 			name = 16_Event;
+			sourceTree = "<group>";
+		};
+		F9E81C731F89D725008B3193 /* 06_2_Enum */ = {
+			isa = PBXGroup;
+			children = (
+				F9E81C741F89D746008B3193 /* EnumSample.swift */,
+			);
+			name = 06_2_Enum;
 			sourceTree = "<group>";
 		};
 		F9E8953F1EEE001E00769612 /* Frameworks */ = {
@@ -446,13 +493,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94CE3FB1FA95C290017CB34 /* CustomRequest.swift in Sources */,
 				F9EE1BA51EF74192002DE95B /* ErrorSample.swift in Sources */,
+				F9E81C751F89D746008B3193 /* EnumSample.swift in Sources */,
 				F9EE1C0B1EF90C8A002DE95B /* ClosureSample.swift in Sources */,
 				F9EE1C101EFA10A9002DE95B /* ClassSample.swift in Sources */,
 				F979A15C1ED545E6003E5BE0 /* StructSample.swift in Sources */,
 				F9643FC31F26C13900DDC6B8 /* AsynchronousSample.swift in Sources */,
+				F94CE3F51FA93EA90017CB34 /* RegularExpressionSample.swift in Sources */,
 				F9D6DD871ED5881900767BA9 /* MyCalendar.swift in Sources */,
+				F94CE3FD1FA95C3C0017CB34 /* CustomResponse.swift in Sources */,
 				F9C408551EDCE9F50040C83D /* EventSample.swift in Sources */,
+				F94CE3F81FA94B270017CB34 /* MyExtension.swift in Sources */,
 				F9EE1BA31EF73DF7002DE95B /* DataSample.swift in Sources */,
 				F9E895921EEE1AD100769612 /* TestTargetViewController.swift in Sources */,
 				F979A1331ED540F7003E5BE0 /* ViewController.swift in Sources */,
